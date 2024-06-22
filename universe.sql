@@ -1,1 +1,4 @@
-create table if not exists check()
+CREATE TABLE IF NOT EXISTS check (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
